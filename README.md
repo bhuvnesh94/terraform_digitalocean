@@ -15,6 +15,11 @@ How to generate ssh keys for the machine?
 --> ssh-keygen(means ssh key generate) will able to provide you with both public and private keys for the machine so that you can ssh to machine. Run below command and follow the steps.
 	--> $ ssh-keygen
 
+How to find path for public key and private key?
+1. Public key= $HOME/.ssh/id_rsa.pub
+2. Private key= $HOME/.ssh/id_rsa
+
+
 Terraform commands:
 1. terraform init (initialize directory as terraform directory)
 2. terraform plan (to see plan for the changes that going to be take effect on cloud)
