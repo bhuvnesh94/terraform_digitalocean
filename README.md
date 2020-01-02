@@ -4,8 +4,8 @@ Terraform scripts to do tasks on digitalocean cloud
 NOTE:- Every time for new user, the values for fingerprint and ssh keys will change.
 
 Terraform installation on ubuntu 18.04 LTS:
---> Run the script "terraform_install.sh":
-	--> $ bash terraform_install.sh
+* Run the script "terraform_install.sh":
+	                                * $ bash terraform_install.sh
 
 How to get fingerprint of the machine?
 --> Run below command to get the fingerprint and take the value after "md5:"
